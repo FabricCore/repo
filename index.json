@@ -14,5 +14,9 @@
     "floppyfly": {
         "package": "https://raw.githubusercontent.com/Siriusmart/floppyfly/refs/heads/master/package.json",
         "zip": "https://github.com/Siriusmart/floppyfly/archive/refs/heads/master.zip"
+    },
+    "utils": {
+        "package": "https://raw.githubusercontent.com/FabricCore/modutils/refs/heads/master/package.json",
+        "zip": "https://github.com/FabricCore/modutils/archive/refs/heads/master.zip"
     }
 }
