@@ -1,0 +1,18 @@
+{
+    "core": {
+        "package": "https://raw.githubusercontent.com/FabricCore/modcore/refs/heads/master/package.json",
+        "zip": "https://github.com/FabricCore/modcore/archive/refs/heads/master.zip"
+    },
+    "keep": {
+        "package": "https://raw.githubusercontent.com/FabricCore/modkeep/refs/heads/master/package.json",
+        "zip": "https://github.com/FabricCore/modkeep/archive/refs/heads/master.zip"
+    },
+    "toggle": {
+        "package": "https://raw.githubusercontent.com/FabricCore/modtoggle/refs/heads/master/package.json",
+        "zip": "https://github.com/FabricCore/modtoggle/archive/refs/heads/master.zip"
+    },
+    "floppyfly": {
+        "package": "https://raw.githubusercontent.com/Siriusmart/floppyfly/refs/heads/master/package.json",
+        "zip": "https://github.com/Siriusmart/floppyfly/archive/refs/heads/master.zip"
+    }
+}
