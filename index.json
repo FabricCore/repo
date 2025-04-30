@@ -18,5 +18,17 @@
     "utils": {
         "package": "https://raw.githubusercontent.com/FabricCore/modutils/refs/heads/master/package.json",
         "zip": "https://github.com/FabricCore/modutils/archive/refs/heads/master.zip"
+    },
+    "pully": {
+        "package": "https://raw.githubusercontent.com/FabricCore/pully/refs/heads/master/package.json",
+        "zip": "https://github.com/FabricCore/pully/archive/refs/heads/master.zip"
+    },
+    "yarnutils": {
+        "package": "https://raw.githubusercontent.com/FabricCore/yarnutils/refs/heads/master/package.json",
+        "zip": "https://github.com/FabricCore/yarnutils/archive/refs/heads/master.zip"
+    },
+    "yarn": {
+        "package": "https://raw.githubusercontent.com/FabricCore/yarn.js/refs/heads/master/package.json",
+        "zip": "https://github.com/FabricCore/yarn.js/archive/refs/heads/master.zip"
     }
 }
