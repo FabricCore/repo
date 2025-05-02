@@ -11,9 +11,9 @@
         "package": "https://raw.githubusercontent.com/FabricCore/modtoggle/refs/heads/master/package.json",
         "zip": "https://github.com/FabricCore/modtoggle/archive/refs/heads/master.zip"
     },
-    "floppyfly": {
-        "package": "https://raw.githubusercontent.com/Siriusmart/floppyfly/refs/heads/master/package.json",
-        "zip": "https://github.com/Siriusmart/floppyfly/archive/refs/heads/master.zip"
+    "toggle-floppyfly": {
+        "package": "https://raw.githubusercontent.com/Siriusmart/toggle-floppyfly/refs/heads/master/package.json",
+        "zip": "https://github.com/Siriusmart/toggle-floppyfly/archive/refs/heads/master.zip"
     },
     "utils": {
         "package": "https://raw.githubusercontent.com/FabricCore/modutils/refs/heads/master/package.json",
