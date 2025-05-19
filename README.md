@@ -112,7 +112,7 @@ Yarnwrap helper methods.
 - Keywords: core, yarnwrap
 
 ### yarntogglepass
-[**Source**](https://github.com/FabricCore/yarntogglepass) | [**Download**](https://github.com/FabricCore/yarntogglepass/archive/refs/heads/master.zip) | ***by Sirius***
+[**Source**](https://github.com/FabricCore/yarntogglepass) | [**Download**](https://github.com/FabricCore/yarntogglepass/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
 /pully install yarntogglepass
