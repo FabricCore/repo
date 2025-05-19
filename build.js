@@ -10,6 +10,14 @@
         return true;
     }
 
+    function escapeHtml(unsafe) {
+        return unsafe
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;");
+    }
+
     function replace(source, tag, content) {
         let lines = source.split("\n");
         let begin = `<!--${tag}:begin-->`;
@@ -83,33 +91,34 @@
         .filter((entry) => goodEntries[entry.meta.name])
         .sort((a, b) => a.meta.name.localeCompare(b.meta.name))
         .forEach((entry) => {
+            let authors = entry.meta.authors.map(escapeHtml);
             packages += `### ${entry.meta.name}\n`;
             packages +=
                 `${entry.meta.repository ? `[**Source**](${entry.meta.repository}) | ` : ""}` +
                 `${entry.meta.homepage ? `[**Home page**](${entry.meta.homepage}) | ` : ""}` +
                 `[**Download**](${entry.zip}) | ` +
-                `***by${entry.meta.authors
+                `***by${authors
                     .slice(0, -1)
                     .map((s) => ` ${s}`)
                     .join(
                         ",",
-                    )}${entry.meta.authors.length > 1 ? " and" : ""} ${entry.meta.authors[entry.meta.authors.length - 1]}***\n`;
+                    )}${authors.length > 1 ? " and" : ""} ${authors[entry.meta.authors.length - 1]}***\n`;
             packages += "\n";
             packages += `\`\`\`\n/pully install ${entry.meta.name}\n\`\`\`\n`;
             packages += "\n";
-            packages += entry.meta.description;
+            packages += escapeHtml(entry.meta.description);
             packages += "\n";
-            packages += `- Depends on: ${
-                eq(entry.meta.dependencies, {})
-                    ? "*[no dependencies]*"
-                    : Object.entries(entry.meta.dependencies)
-                          .map(
-                              ([name, version]) =>
-                                  `**[${name}](#${name})**(${version})`,
-                          )
-                          .join(", ")
-            }\n`;
-            packages += `- Java dependencies: ${(entry.meta.javaDependencies ?? []).length == 0 ? `*[no dependencies]*` : entry.meta.javaDependencies.join(", ")}\n`;
+            if (!eq(entry.meta.dependencies, {}))
+                packages += `- Depends on: ${Object.entries(
+                    entry.meta.dependencies,
+                )
+                    .map(
+                        ([name, version]) =>
+                            `**[${name}](#${name})**(${version})`,
+                    )
+                    .join(", ")}\n`;
+            if ((entry.meta.javaDependencies ?? []).length != 0)
+                packages += `- Java dependencies: ${entry.meta.javaDependencies.join(", ")}\n`;
             if ((entry.meta.keywords ?? []).length != 0)
                 packages += `- Keywords: ${entry.meta.keywords.join(", ")}`;
             packages += "\n";
