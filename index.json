@@ -15,9 +15,9 @@
         "package": "https://raw.githubusercontent.com/Siriusmart/toggle-floppyfly/refs/heads/master/package.json",
         "zip": "https://github.com/Siriusmart/toggle-floppyfly/archive/refs/heads/master.zip"
     },
-    "utils": {
-        "package": "https://raw.githubusercontent.com/FabricCore/modutils/refs/heads/master/package.json",
-        "zip": "https://github.com/FabricCore/modutils/archive/refs/heads/master.zip"
+    "maths": {
+        "package": "https://raw.githubusercontent.com/FabricCore/modmaths/refs/heads/master/package.json",
+        "zip": "https://github.com/FabricCore/modmaths/archive/refs/heads/master.zip"
     },
     "pully": {
         "package": "https://raw.githubusercontent.com/FabricCore/pully/refs/heads/master/package.json",

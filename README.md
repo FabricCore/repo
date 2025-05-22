@@ -57,6 +57,16 @@ Lazy storage.
 - Depends on: **[core](#core)**(0.1.0), **[yarn](#yarn)**(0.1.0)
 - Keywords: core, keep, storage
 
+### maths
+[**Source**](https://github.com/FabricCore/modmaths) | [**Download**](https://github.com/FabricCore/modmaths/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
+
+```
+/pully install maths
+```
+
+Basic maths functions.
+- Keywords: core, maths, math
+
 ### pully
 [**Source**](https://github.com/FabricCore/pully) | [**Download**](https://github.com/FabricCore/pully/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
@@ -80,25 +90,15 @@ Togglable services.
 - Keywords: core, toggles
 
 ### toggle-floppyfly
-[**Download**](https://github.com/Siriusmart/toggle-floppyfly/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
+[**Source**](https://github.com/Siriusmart/toggle-floppyfly) | [**Download**](https://github.com/Siriusmart/toggle-floppyfly/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
 /pully install toggle-floppyfly
 ```
 
 Floppy's elytra fly.
-- Depends on: **[keep](#keep)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[utils](#utils)**(0.1.0), **[yarnutils](#yarnutils)**(0.1.0), **[yarn](#yarn)**(0.1.0)
+- Depends on: **[keep](#keep)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[maths](#maths)**(0.1.0), **[yarnutils](#yarnutils)**(0.1.0), **[yarn](#yarn)**(0.1.0)
 - Keywords: efly
-
-### utils
-[**Source**](https://github.com/FabricCore/modutils) | [**Download**](https://github.com/FabricCore/modutils/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
-
-```
-/pully install utils
-```
-
-Basic utilities.
-- Keywords: core, toggles
 
 ### yarn
 [**Source**](https://github.com/FabricCore/yarn.js) | [**Download**](https://github.com/FabricCore/yarn.js/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***

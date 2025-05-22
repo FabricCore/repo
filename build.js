@@ -69,8 +69,9 @@
         else goodEntries[name] = true;
     });
 
-    let removedCount = 0;
+    let removedCount;
     do {
+        removedCount = 0;
         Object.keys(goodEntries).forEach((name) => {
             if (
                 Object.keys(repo[name].meta.dependencies).some(
@@ -129,9 +130,11 @@
 
     Object.entries(badEntries).forEach(([name, reason]) => {
         badPackages +=
-            `- ` + repo[name].meta.repository
-                ? `[**${name}**](${repo[name.meta.repository]})`
-                : `**${name}**` + ` (${reason})\n`;
+            `- ` +
+            (repo[name].meta.repository
+                ? `[**${name}**](${repo[name].meta.repository})`
+                : `**${name}**`) +
+            ` (${reason})\n`;
     });
 
     if (packages.length == 0) packages = "*[no packages]*";
