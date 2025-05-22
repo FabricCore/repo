@@ -93,7 +93,7 @@
         .sort((a, b) => a.meta.name.localeCompare(b.meta.name))
         .forEach((entry) => {
             let authors = entry.meta.authors.map(escapeHtml);
-            packages += `### ${entry.meta.name}\n`;
+            packages += `### ${entry.meta.name} ${entry.meta.version}\n`;
             packages +=
                 `${entry.meta.repository ? `[**Source**](${entry.meta.repository}) | ` : ""}` +
                 `${entry.meta.homepage ? `[**Home page**](${entry.meta.homepage}) | ` : ""}` +
@@ -129,12 +129,13 @@
     let badPackages = "";
 
     Object.entries(badEntries).forEach(([name, reason]) => {
+        let entry = repo[name];
         badPackages +=
             `- ` +
-            (repo[name].meta.repository
-                ? `[**${name}**](${repo[name].meta.repository})`
+            (entry.meta.repository
+                ? `[**${name}**](${entry.meta.repository})`
                 : `**${name}**`) +
-            ` (${reason})\n`;
+            ` ${entry.meta.version} (${reason})\n`;
     });
 
     if (packages.length == 0) packages = "*[no packages]*";

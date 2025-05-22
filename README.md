@@ -25,7 +25,7 @@ To update the package README, run `node build.js` on a local machine.
 ## Package Listing
 
 <!--listing:begin-->
-### core
+### core 0.1.0
 [**Source**](https://github.com/FabricCore/modcore) | [**Download**](https://github.com/FabricCore/modcore/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -35,7 +35,7 @@ To update the package README, run `node build.js` on a local machine.
 Core library.
 - Keywords: core
 
-### emojichat
+### emojichat 0.1.0
 [**Source**](https://github.com/siriusmart/emojichat/) | [**Download**](https://github.com/Siriusmart/emojichat/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -46,7 +46,7 @@ Use Discord style emoji in chat.
 - Depends on: **[keep](#keep)**(0.1.0), **[yarn](#yarn)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[yarntogglepass](#yarntogglepass)**(0.1.0)
 - Keywords: chat
 
-### keep
+### keep 0.1.0
 [**Source**](https://github.com/FabricCore/modkeep) | [**Download**](https://github.com/FabricCore/modkeep/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -57,7 +57,7 @@ Lazy storage.
 - Depends on: **[core](#core)**(0.1.0), **[yarn](#yarn)**(0.1.0)
 - Keywords: core, keep, storage
 
-### maths
+### maths 0.1.0
 [**Source**](https://github.com/FabricCore/modmaths) | [**Download**](https://github.com/FabricCore/modmaths/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -67,7 +67,7 @@ Lazy storage.
 Basic maths functions.
 - Keywords: core, maths, math
 
-### pully
+### pully 0.1.0
 [**Source**](https://github.com/FabricCore/pully) | [**Download**](https://github.com/FabricCore/pully/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -78,7 +78,7 @@ Pully package manager.
 - Depends on: **[core](#core)**(0.1.0)
 - Keywords: package manager
 
-### toggle
+### toggle 0.1.0
 [**Source**](https://github.com/FabricCore/modtoggle) | [**Download**](https://github.com/FabricCore/modtoggle/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -89,7 +89,7 @@ Togglable services.
 - Depends on: **[keep](#keep)**(0.1.0)
 - Keywords: core, toggles
 
-### toggle-floppyfly
+### toggle-floppyfly 0.1.1
 [**Source**](https://github.com/Siriusmart/toggle-floppyfly) | [**Download**](https://github.com/Siriusmart/toggle-floppyfly/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -97,10 +97,10 @@ Togglable services.
 ```
 
 Floppy's elytra fly.
-- Depends on: **[keep](#keep)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[maths](#maths)**(0.1.0), **[yarnutils](#yarnutils)**(0.1.0), **[yarn](#yarn)**(0.1.0)
+- Depends on: **[keep](#keep)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[maths](#maths)**(0.1.0), **[yarnutils](#yarnutils)**(0.1.0), **[yarn](#yarn)**(0.1.1)
 - Keywords: efly
 
-### yarn
+### yarn 0.1.1
 [**Source**](https://github.com/FabricCore/yarn.js) | [**Download**](https://github.com/FabricCore/yarn.js/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -111,7 +111,7 @@ Yarnwrap helper methods.
 - Java dependencies: yarnwrap
 - Keywords: core, yarnwrap
 
-### yarntogglepass
+### yarntogglepass 0.1.0
 [**Source**](https://github.com/FabricCore/yarntogglepass) | [**Download**](https://github.com/FabricCore/yarntogglepass/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -122,7 +122,7 @@ Yarnwrap event passes.
 - Depends on: **[yarn](#yarn)**(0.1.0), **[toggle](#toggle)**(0.1.0)
 - Keywords: core, yarnwrap
 
-### yarnutils
+### yarnutils 0.1.1
 [**Source**](https://github.com/FabricCore/yarnutils) | [**Download**](https://github.com/FabricCore/yarnutils/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -130,7 +130,7 @@ Yarnwrap event passes.
 ```
 
 Yarnwrap helper methods (extra)
-- Depends on: **[yarn](#yarn)**(0.1.0)
+- Depends on: **[yarn](#yarn)**(0.1.1)
 - Keywords: yarnwrap, utils
 <!--listing:end-->
 
