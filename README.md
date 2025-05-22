@@ -18,6 +18,8 @@
 - Author should be in format **UserNickname<IdentifiableName>**. **IdentifiableName** can be any identifiable information such as your email address, GitHub username, etc.
 - All dependencies must be valid packages on repo.
 
+> <span style="color: #bf616a;">Please tag a package **illegal** if it would be considered a hack.</span>
+
 ### Build Guides
 
 To update the package README, run `node build.js` on a local machine.
@@ -32,6 +34,7 @@ To update the package README, run `node build.js` on a local machine.
 /pully install core
 ```
 
+
 Core library.
 - Keywords: core
 
@@ -41,6 +44,7 @@ Core library.
 ```
 /pully install emojichat
 ```
+
 
 Use Discord style emoji in chat.
 - Depends on: **[keep](#keep)**(0.1.0), **[yarn](#yarn)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[yarntogglepass](#yarntogglepass)**(0.1.0)
@@ -53,6 +57,7 @@ Use Discord style emoji in chat.
 /pully install keep
 ```
 
+
 Lazy storage.
 - Depends on: **[core](#core)**(0.1.0), **[yarn](#yarn)**(0.1.0)
 - Keywords: core, keep, storage
@@ -64,6 +69,7 @@ Lazy storage.
 /pully install maths
 ```
 
+
 Basic maths functions.
 - Keywords: core, maths, math
 
@@ -73,6 +79,7 @@ Basic maths functions.
 ```
 /pully install pully
 ```
+
 
 Pully package manager.
 - Depends on: **[core](#core)**(0.1.0)
@@ -85,6 +92,7 @@ Pully package manager.
 /pully install toggle
 ```
 
+
 Togglable services.
 - Depends on: **[keep](#keep)**(0.1.0)
 - Keywords: core, toggles
@@ -96,9 +104,11 @@ Togglable services.
 /pully install toggle-floppyfly
 ```
 
+> ***<span style="color: #bf616a;">WARNING: This package offers unfair advantages and may be bannable on some servers.***</span>
+
 Floppy's elytra fly.
 - Depends on: **[keep](#keep)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[maths](#maths)**(0.1.0), **[yarnutils](#yarnutils)**(0.1.0), **[yarn](#yarn)**(0.1.1)
-- Keywords: efly
+- Keywords: efly, illegal
 
 ### yarn 0.1.1
 [**Source**](https://github.com/FabricCore/yarn.js) | [**Download**](https://github.com/FabricCore/yarn.js/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
@@ -106,6 +116,7 @@ Floppy's elytra fly.
 ```
 /pully install yarn
 ```
+
 
 Yarnwrap helper methods.
 - Java dependencies: yarnwrap
@@ -118,6 +129,7 @@ Yarnwrap helper methods.
 /pully install yarntogglepass
 ```
 
+
 Yarnwrap event passes.
 - Depends on: **[yarn](#yarn)**(0.1.0), **[toggle](#toggle)**(0.1.0)
 - Keywords: core, yarnwrap
@@ -128,6 +140,7 @@ Yarnwrap event passes.
 ```
 /pully install yarnutils
 ```
+
 
 Yarnwrap helper methods (extra)
 - Depends on: **[yarn](#yarn)**(0.1.1)

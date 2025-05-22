@@ -107,6 +107,10 @@
             packages += "\n";
             packages += `\`\`\`\n/pully install ${entry.meta.name}\n\`\`\`\n`;
             packages += "\n";
+            if (entry.meta.keywords.includes("illegal"))
+                packages +=
+                    "> ***<span style=\"color: #bf616a;\">WARNING: This package offers unfair advantages and may be bannable on some servers.***</span>\n";
+            packages += "\n";
             packages += escapeHtml(entry.meta.description);
             packages += "\n";
             if (!eq(entry.meta.dependencies, {}))
@@ -121,8 +125,7 @@
             if ((entry.meta.javaDependencies ?? []).length != 0)
                 packages += `- Java dependencies: ${entry.meta.javaDependencies.join(", ")}\n`;
             if ((entry.meta.keywords ?? []).length != 0)
-                packages += `- Keywords: ${entry.meta.keywords.join(", ")}`;
-            packages += "\n";
+                packages += `- Keywords: ${entry.meta.keywords.join(", ")}\n`;
             packages += "\n";
         });
 
