@@ -107,9 +107,11 @@
             packages += "\n";
             packages += `\`\`\`\n/pully install ${entry.meta.name}\n\`\`\`\n`;
             packages += "\n";
-            if (entry.meta.keywords.includes("illegal"))
+            if (entry.meta.keywords.includes("illegal")) {
+                packages += "> [!CAUTION]\n";
                 packages +=
-                    "> ***<span style=\"color: #bf616a;\">WARNING: This package offers unfair advantages and may be bannable on some servers.***</span>\n";
+                    "> This package offers unfair advantages and may be bannable on some servers.\n";
+            }
             packages += "\n";
             packages += escapeHtml(entry.meta.description);
             packages += "\n";

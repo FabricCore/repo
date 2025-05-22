@@ -18,7 +18,8 @@
 - Author should be in format **UserNickname<IdentifiableName>**. **IdentifiableName** can be any identifiable information such as your email address, GitHub username, etc.
 - All dependencies must be valid packages on repo.
 
-> <span style="color: #bf616a;">Please tag a package **illegal** if it would be considered a hack.</span>
+> [!IMPORTANT]
+> Please tag a package **illegal** if it would be considered a hack.
 
 ### Build Guides
 
@@ -104,7 +105,8 @@ Togglable services.
 /pully install toggle-floppyfly
 ```
 
-> ***<span style="color: #bf616a;">WARNING: This package offers unfair advantages and may be bannable on some servers.***</span>
+> [!CAUTION]
+> This package offers unfair advantages and may be bannable on some servers.
 
 Floppy's elytra fly.
 - Depends on: **[keep](#keep)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[maths](#maths)**(0.1.0), **[yarnutils](#yarnutils)**(0.1.0), **[yarn](#yarn)**(0.1.1)
