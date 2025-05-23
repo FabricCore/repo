@@ -10,6 +10,9 @@
 4. Other packages can only be accessed through public functions.
 5. Internal variables should not be top level.
 
+> [!NOTE]
+> Join [**Discord**](https://discord.gg/WAR9aKVFQJ), we like feedback from the user and new packages from developers.
+
 ### Manifest (package.json) Requirements
 
 - Name in package.json must match name in repo.
