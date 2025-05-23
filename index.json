@@ -35,7 +35,7 @@
         "package": "https://raw.githubusercontent.com/FabricCore/yarntogglepass/refs/heads/master/package.json",
         "zip": "https://github.com/FabricCore/yarntogglepass/archive/refs/heads/master.zip"
     },
-    "emojichat": {
+    "toggle-emojichat": {
         "package": "https://raw.githubusercontent.com/Siriusmart/emojichat/refs/heads/master/package.json",
         "zip": "https://github.com/Siriusmart/emojichat/archive/refs/heads/master.zip"
     }

@@ -39,18 +39,6 @@ To update the package README, run `node build.js` on a local machine.
 Core library.
 - Keywords: core
 
-### emojichat 0.1.0
-[**Source**](https://github.com/siriusmart/emojichat/) | [**Download**](https://github.com/Siriusmart/emojichat/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
-
-```
-/pully install emojichat
-```
-
-
-Use Discord style emoji in chat.
-- Depends on: **[keep](#keep)**(0.1.0), **[yarn](#yarn)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[yarntogglepass](#yarntogglepass)**(0.1.0)
-- Keywords: chat
-
 ### keep 0.1.0
 [**Source**](https://github.com/FabricCore/modkeep) | [**Download**](https://github.com/FabricCore/modkeep/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
@@ -97,6 +85,18 @@ Pully package manager.
 Togglable services.
 - Depends on: **[keep](#keep)**(0.1.0)
 - Keywords: core, toggles
+
+### toggle-emojichat 0.1.0
+[**Source**](https://github.com/siriusmart/toggle-emojichat/) | [**Download**](https://github.com/Siriusmart/emojichat/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
+
+```
+/pully install toggle-emojichat
+```
+
+
+Use Discord style emoji in chat.
+- Depends on: **[keep](#keep)**(0.1.0), **[yarn](#yarn)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[yarntogglepass](#yarntogglepass)**(0.1.0)
+- Keywords: chat, toggle
 
 ### toggle-floppyfly 0.1.1
 [**Source**](https://github.com/Siriusmart/toggle-floppyfly) | [**Download**](https://github.com/Siriusmart/toggle-floppyfly/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
