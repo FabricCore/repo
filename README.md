@@ -87,7 +87,7 @@ Togglable services.
 - Keywords: core, toggles
 
 ### toggle-emojichat 0.1.0
-[**Source**](https://github.com/siriusmart/toggle-emojichat/) | [**Download**](https://github.com/Siriusmart/emojichat/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
+[**Source**](https://github.com/siriusmart/toggle-emojichat/) | [**Download**](https://github.com/Siriusmart/toggle-emojichat/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
 /pully install toggle-emojichat
@@ -98,7 +98,7 @@ Use Discord style emoji in chat.
 - Depends on: **[keep](#keep)**(0.1.0), **[yarn](#yarn)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[yarntogglepass](#yarntogglepass)**(0.1.0)
 - Keywords: chat, toggle
 
-### toggle-floppyfly 0.1.1
+### toggle-floppyfly 0.1.2
 [**Source**](https://github.com/Siriusmart/toggle-floppyfly) | [**Download**](https://github.com/Siriusmart/toggle-floppyfly/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```
@@ -109,8 +109,20 @@ Use Discord style emoji in chat.
 > This package offers unfair advantages and may be bannable on some servers.
 
 Floppy's elytra fly.
-- Depends on: **[keep](#keep)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[maths](#maths)**(0.1.0), **[yarnutils](#yarnutils)**(0.1.0), **[yarn](#yarn)**(0.1.1)
+- Depends on: **[keep](#keep)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[maths](#maths)**(0.1.0), **[yarnutils](#yarnutils)**(0.1.1), **[yarn](#yarn)**(0.1.1)
 - Keywords: efly, illegal
+
+### toggle-unfocusedfps 0.1.2
+[**Source**](https://github.com/Siriusmart/toggle-unfocusedfps) | [**Download**](https://github.com/Siriusmart/toggle-unfocusedfps/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
+
+```
+/pully install toggle-unfocusedfps
+```
+
+
+Reduce FPS when the game is out of focus.
+- Depends on: **[keep](#keep)**(0.1.0), **[toggle](#toggle)**(0.1.0), **[yarn](#yarn)**(0.1.1)
+- Keywords: fps, performance
 
 ### yarn 0.1.1
 [**Source**](https://github.com/FabricCore/yarn.js) | [**Download**](https://github.com/FabricCore/yarn.js/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
@@ -136,7 +148,7 @@ Yarnwrap event passes.
 - Depends on: **[yarn](#yarn)**(0.1.0), **[toggle](#toggle)**(0.1.0)
 - Keywords: core, yarnwrap
 
-### yarnutils 0.1.1
+### yarnutils 0.1.2
 [**Source**](https://github.com/FabricCore/yarnutils) | [**Download**](https://github.com/FabricCore/yarnutils/archive/refs/heads/master.zip) | ***by Sirius&lt;siriusmart&gt;***
 
 ```

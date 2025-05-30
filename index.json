@@ -36,7 +36,11 @@
         "zip": "https://github.com/FabricCore/yarntogglepass/archive/refs/heads/master.zip"
     },
     "toggle-emojichat": {
-        "package": "https://raw.githubusercontent.com/Siriusmart/emojichat/refs/heads/master/package.json",
-        "zip": "https://github.com/Siriusmart/emojichat/archive/refs/heads/master.zip"
+        "package": "https://raw.githubusercontent.com/Siriusmart/toggle-emojichat/refs/heads/master/package.json",
+        "zip": "https://github.com/Siriusmart/toggle-emojichat/archive/refs/heads/master.zip"
+    },
+    "toggle-unfocusedfps": {
+        "package": "https://raw.githubusercontent.com/Siriusmart/toggle-unfocusedfps/refs/heads/master/package.json",
+        "zip": "https://github.com/Siriusmart/toggle-unfocusedfps/archive/refs/heads/master.zip"
     }
 }
